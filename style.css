@@ -37,6 +37,7 @@ input[type=range] {
   -webkit-appearance: none;
   margin: 26px 0;
   width: 90%;
+  background: transparent;
 }
 input[type=range]:focus {
   outline: none;

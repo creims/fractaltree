@@ -65,10 +65,7 @@ function drawFractal() {
     let ta = getFloatVal(rangeTA);
     let d = getIntVal(rangeD);
     
-    console.log(x, y, a, l, ls, bf, ta, d);
-
     api.drawTree(x, y, a, l, ls, bf, ta, d);
-    //api.drawTree(0.5, 1, 270, 200, 0.8, 3, 45.0, 3);
     let img = new ImageData(view, canvas.width, canvas.height);
     ctx.putImageData(img, 0, 0);
 }

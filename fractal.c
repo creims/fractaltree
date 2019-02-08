@@ -87,6 +87,7 @@ void plotLineWidth(int x0, int y0, int x1, int y1, float w) {
         y1 = t;
     }
 
+    // Check out of bounds
     // Since x is increasing, if the endpoint is < 0 there's nothing to draw
     // Similar if the start point is > maxX
     if(x0 > view.width || x1 < 0) 
